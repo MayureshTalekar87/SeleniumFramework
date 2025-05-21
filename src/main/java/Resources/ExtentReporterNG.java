@@ -8,7 +8,7 @@ public class ExtentReporterNG {
 	public static ExtentReports getReportObject() {
 		
 		// Set Path to store index.html file
-		String path = System.getProperty("uer.dir")+"//reports//index.html";
+		String path = System.getProperty("user.dir")+"//reports//index.html";
 		
 		// ExtentSpartReporter to setup report configuration
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
